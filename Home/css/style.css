@@ -1,0 +1,204 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: sans-serif;
+}
+
+.container1 {
+    background-color: #462705e6;
+    color: white;
+    width: 1100px;
+    height: 600px;
+    margin: auto auto 0;
+    display: grid;
+    grid-template-columns: 450PX 375PX;
+    grid-template-rows: 80%;
+    gap: 60px;
+    justify-content: center;
+    align-content: center;
+}
+
+.title,
+.p1,
+.p2 {
+  color: #ffffff9f; 
+  font-size: 15px; 
+}
+
+.part1 {
+    background-image: url(../project/images/barman-with-fruits.jpg);
+    background-size:500px 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 82%;
+    padding-left: 8%;
+    font-size: 15px;
+}
+
+.part2 {
+    margin-top: 80px;
+    /* font-size:15px ; */
+}
+
+.title {
+    position: relative;
+    /* top: 0; */
+}
+
+.special {
+    color: #954c1b;
+}
+
+button {
+    background-color: #46270500;
+    color: #fff;
+    margin-top: 5px;
+    padding: 10px 25px;
+    border: 1px solid #ffffffec;
+    border-radius: 50px;
+}
+
+                /* Section 2 */
+.container2 {
+    background-color: #b78752;
+    color: white;
+    width: 1100px;
+    height: 550px;
+    margin: auto;
+}
+
+.header span {
+    color: #ffffffb1;
+    position: relative;
+    top: 0px;
+    font-size: 11px;
+}
+
+.header {
+    padding: 50px 30px 10px;
+    text-align: center;
+} 
+
+.people {
+    display: flex;
+    height: 55%;
+    margin: 0 100px;
+}
+
+p {
+    font-size: 15px;
+    color: #ffffffb7;
+}
+
+.position {
+    background-color: hsl(28, 67%, 44%);
+    border-radius: 1px;
+    font-size: 10px;
+    padding: 4px 6px;
+    margin-left: 10px;
+}
+
+.person1,
+.person2,
+.person3,
+.person4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    padding-top: 200px;
+    padding-left: 25px;
+    text-align: left;
+    margin-right: 15px;
+    width: 25%;
+}
+
+.person1 {
+    background-image: url(../project/images/team/1.jpg);
+}
+
+.person2 {
+    background-image: url(../project/images/team/2.jpg);
+}
+
+.person3 {
+    background-image: url(../project/images/team/3.jpg);
+}
+
+.person4 {
+    background-image: url(../project/images/team/4.jpg);
+}
+
+                    /* Section 3 */
+.container3 {
+    background-image: url(../project/images/5.jpg);
+    background-size: cover;
+    color: white;
+    width: 1100px;
+    height: 550px;
+    margin: auto;
+}
+
+.contact-info {
+    position: relative;
+    top: 15%;
+    bottom: 15%;
+    left: 10%;
+}
+
+h1 {
+    position: relative;
+    top: -20px;
+}
+
+.info {
+    width: 500px;
+    display: flex;
+    padding-bottom: 20px;
+    gap:30px;
+}
+
+.info1 div{
+    margin-bottom: 10px;
+}
+
+.label {
+    color: #fbfbfbcb;
+    font-size: small;
+    font-weight:100;
+}
+
+.star {
+    color: red;
+}
+
+input,
+textarea {
+    background-color: #ffffff00;
+    width: 150px;
+    border: 0.1px solid rgba(255, 255, 255, 0.369);
+    padding: 10px 20px 10px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 400px;
+}
+
+::placeholder {
+    color: #fbfbfbcc;
+}
+
+.button {
+    padding: 20px 90px;
+}
+
+.button input {
+    border-radius: 80px;
+    background-color: #bc6c25;
+    color: white;
+    align-content: center;
+    border-bottom: currentColor;
+    cursor: pointer;
+}
